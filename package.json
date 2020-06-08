@@ -1,0 +1,12 @@
+{
+  "name": "watson-speed",
+  "version": "1.0.0",
+  "description": "Measure and Log Internet Speed",
+  "main": "index.js",
+  "author": "Richard van der Dys",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "mongoose": "^5.9.18",
+    "speedtest-net": "^2.1.1"
+  }
+}
