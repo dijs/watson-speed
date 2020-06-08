@@ -4,9 +4,15 @@
   "description": "Measure and Log Internet Speed",
   "main": "index.js",
   "author": "Richard van der Dys",
+  "scripts": {
+    "start": "pm2 start index.js --cron \"0 */5 * * * *\" --no-autorestart"
+  },
   "dependencies": {
     "dotenv": "^8.2.0",
     "mongoose": "^5.9.18",
     "speedtest-net": "^2.1.1"
+  },
+  "devDependencies": {
+    "pm2": "^4.4.0"
   }
 }
